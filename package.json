@@ -1,0 +1,25 @@
+{
+  "name": "mica.js",
+  "version": "0.1.0",
+  "private": true,
+  "description": "High-performance, opinionated web framework",
+  "packageManager": "pnpm@8.0.0",
+
+  "scripts": {
+    "build": "pnpm --filter ./packages/* build",
+    "dev": "pnpm --filter ./packages/* dev",
+    "lint": "pnpm --filter ./packages/* lint",
+    "test": "pnpm --filter ./packages/* test"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.3",
+    "eslint": "^8.54.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "jest": "^29.7.0",
+    "@types/jest": "^29.5.0",
+    "ts-jest": "^29.1.0"
+  }
+}

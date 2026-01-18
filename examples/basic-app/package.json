@@ -1,0 +1,27 @@
+{
+  "name": "basic-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "mica dev",
+    "build": "mica build",
+    "start": "mica start",
+    "lint": "eslint src --ext .ts,.tsx,.js,.jsx",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "@webframework/core": "*"
+  },
+  "devDependencies": {
+    "@webframework/build": "*",
+    "@webframework/cli": "*",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.3.1",
+    "typescript": "^5.3.3",
+    "tailwindcss": "^3.3.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0"
+  }
+}
